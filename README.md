@@ -20,6 +20,8 @@ Certificate Hierarchie
             is used for i.MX6, i.MX6UL with barebox
   * rauc-intermediate: PHYTEC-rauc Intermediate CA with RSA-2048
     * development-1: PHYTEC-RAUC-Dev1 for signing rauc update bundles with RSA-2048
+  * rauc-intermediate-crypt: PHYTEC-RAUC-CRYPT Intermediate CA for signing crypt device certificates with RSA-4096
+    * PHYTEC-RAUC-CRYPT-recipients: Device certificates for encrypting the rauc update bundle with RSA-4096
   * kernel_modsign: PHYTEC-modsign for signing kernel modules with RSA-4096
   
 * rauc: own self-signed CA only for rauc (old one)
