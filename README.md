@@ -1,6 +1,13 @@
 phytec-dev-ca
 =============
 
+> [!WARNING]
+> ### For demonstration purposes only!
+> All passwords, keys, certificates and other files in this repository are for
+> demonstration purposes only! Never use these keys and certificates in a
+> productive environment! This repository is publicly available and is **not**
+> meant for securing private devices!
+
 Dependencies
 ------------
 The phytec-dev-ca is created with the Tool xca from https://hohnstaedt.de/xca  
