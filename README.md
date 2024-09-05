@@ -1,14 +1,14 @@
-# phytec-dev-ca
-Development Keys only for testing
+phytec-dev-ca
+=============
 
 Dependencies
-============
+------------
 The phytec-dev-ca is created with the Tool xca from https://hohnstaedt.de/xca  
 The password for the phytec-dev-ca: phytec-dev-ca  
 The keys for NXP HAB v4 are created with the NXP script from the cst tool
 
 Certificate Hierarchie
-======================
+----------------------
 
 * main-ca: PHYTEC-ROOT is a self signed certificate with RSA-4096
   * nxp_ahab_pki: NXP keys for AHAB secure boot with NIST P-521 (secp521r1)
