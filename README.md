@@ -32,6 +32,18 @@ Certificate Hierarchy
     * fitImage: with u-boot for i.MX8M (MNP)
     * CSF
     * IMG
+  * ti_k3: Keys for secure boot for TI K3 architecture devices
+    * phytecSMPK: An RSA-4096 dummy Secondary Manufacture Public Key. This key is used
+                  for signing or encrypting images.
+    * phytecSMEK: An RSA-4096 dummy Secondary Manufacture Encryption Key. This key is
+                  used for encrypted boot on the secured device.
+    * phytecBMPK: An RSA-4096 dummy Back-up Manufacture Public Key. This key is used
+                  for signing or encrypting images.
+    * phytecBMEK: An RSA-4096 dummy Back-up Manufacture Encryption Key. This key is
+                  used for encrypted boot on the secured device.
+    * phytecAES256: An AES-256 dummy key used for encrypted boot.
+    * ti-degenerate-key: An RSA-4096 key used to encrypt the keys that you are burning
+                         onto the device.
   * `fit`: PHYTEC-FIT4096 for signing FIT-Images with RSA-4096
     * used for i.MX6, i.MX6UL with barebox
   * `rauc-intermediate`: PHYTEC-rauc Intermediate CA with RSA-2048
