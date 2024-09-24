@@ -32,7 +32,7 @@ Certificate Hierarchy
     * fitImage: with u-boot for i.MX8M (MNP)
     * CSF
     * IMG
-  * ti_k3: Keys for secure boot for TI K3 architecture devices
+  * `ti_k3`: Keys for secure boot for TI K3 architecture devices
     * phytecSMPK: An RSA-4096 dummy Secondary Manufacture Public Key. This key is used
                   for signing or encrypting images.
     * phytecSMEK: An RSA-4096 dummy Secondary Manufacture Encryption Key. This key is
