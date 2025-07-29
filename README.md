@@ -44,8 +44,12 @@ Certificate Hierarchy
     * phytecAES256: An AES-256 dummy key used for encrypted boot.
     * ti-degenerate-key: An RSA-4096 key used to encrypt the keys that you are burning
                          onto the device.
-  * `fit`: PHYTEC-FIT4096 for signing FIT-Images with RSA-4096
-    * used for i.MX6, i.MX6UL with barebox
+  * `fit`: Keys for signing FIT-Images
+    * PHYTEC-FIT4096: RSA-4096 key for signing FIT-Image configurations
+      * used for u-boot and barebox
+    * PHYTEC-FIT-IMG4096: RSA-4096 key for signing individual images inside the
+      FIT-Image
+      * used for u-boot with signed boot script
   * `rauc-intermediate`: PHYTEC-rauc Intermediate CA with RSA-2048
     * `development-1`: PHYTEC-RAUC-Dev1 for signing rauc update bundles with RSA-2048
   * `rauc-intermediate-crypt`: PHYTEC-RAUC-CRYPT Intermediate CA for signing crypt device certificates with RSA-4096
