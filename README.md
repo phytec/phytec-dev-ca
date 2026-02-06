@@ -59,4 +59,16 @@ Certificate Hierarchy
 * `rauc`: self-signed CA only for rauc (old one)
   * `development-1`: PHYTEC-RAUC-Dev1 for signing rauc update bundles with RSA-2048
 
+* `ssh-ca`: ssh cerrtificates for user client authentication
+  * `user-client-ca`: ED25519 Key Pair for signing user certificates.
+                      The public key must be installed on the device for client authentication.
+  * `user-root`: ED25519 Keypair and user certificate for user root ssh login with
+    * time-period: 2025-01-01T00:00:00 to 2050-01-01T00:00:00
+    * source-adress-area: 192.168.0.0/16
+    * extensions: permit-pty
+  * `Password for ssh private key access`: sshtest
+  * `Private key user rights`: chmod 600 user-root/user_root_ed25519
+  * `Add SSH key to ssh-agent`: ssh-add user-root/user_root_ed25519
+  * `client usage`: `ssh -v -i user_root_ed25519 root@192.168.3.11`
+
 
