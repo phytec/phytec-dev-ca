@@ -27,6 +27,9 @@ Certificate Hierarchy
     * bootloader/boot container: for i.MX9
     * Super root keys (SRK) 1, 2, 3 and 4
     * Certificates for SRKs signed by PHYTEC Root CA
+  * `nxp_ahab_pki_pqc`: NXP keys for AHAB secure boot with ML-DSA-87
+    * bootloader/boot container: for i.MX95
+    * Super root keys (SRK) 0, 1, 2 and 3
   * `nxp_habv4_pki`:  NXP Keys for HABV4 (SRK 1..4) secure boot with RSA-4096
     * bootloader/boot container: for i.MX6, i.MX6UL, i.MX8M (MNP)
     * fitImage: with u-boot for i.MX8M (MNP)
