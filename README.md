@@ -24,7 +24,7 @@ Certificate Hierarchy
 
 * `main-ca`: PHYTEC-ROOT is a self signed certificate with RSA-4096
   * `nxp_ahab_pki`: NXP keys for AHAB secure boot with NIST P-521 (secp521r1)
-    * bootloader/boot container: for i.MX93
+    * bootloader/boot container: for i.MX9
     * Super root keys (SRK) 1, 2, 3 and 4
     * Certificates for SRKs signed by PHYTEC Root CA
   * `nxp_habv4_pki`:  NXP Keys for HABV4 (SRK 1..4) secure boot with RSA-4096
