@@ -2,6 +2,7 @@ phytec-dev-ca
 =============
 
 > [!WARNING]
+> ### DO NOT SHIP THIS KEYS AND CERTIFICATES
 > ### For demonstration purposes only!
 > All passwords, keys, certificates and other files in this repository are for
 > demonstration purposes only! Never use these keys and certificates in a
