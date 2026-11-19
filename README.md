@@ -60,9 +60,6 @@ Certificate Hierarchy
     * `PHYTEC-RAUC-CRYPT-recipients`: Device certificates for encrypting the rauc update bundle with RSA-4096
   * `kernel_modsign`: PHYTEC-modsign for signing kernel modules with RSA-4096
 
-* `rauc`: self-signed CA only for rauc (old one)
-  * `development-1`: PHYTEC-RAUC-Dev1 for signing rauc update bundles with RSA-2048
-
 * `ssh-ca`: ssh cerrtificates for user client authentication
   * `user-client-ca`: ED25519 Key Pair for signing user certificates.
                       The public key must be installed on the device for client authentication.
