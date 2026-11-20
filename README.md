@@ -2,6 +2,7 @@ phytec-dev-ca
 =============
 
 > [!WARNING]
+> ### DO NOT SHIP THIS KEYS AND CERTIFICATES
 > ### For demonstration purposes only!
 > All passwords, keys, certificates and other files in this repository are for
 > demonstration purposes only! Never use these keys and certificates in a
@@ -58,9 +59,6 @@ Certificate Hierarchy
   * `rauc-intermediate-crypt`: PHYTEC-RAUC-CRYPT Intermediate CA for signing crypt device certificates with RSA-4096
     * `PHYTEC-RAUC-CRYPT-recipients`: Device certificates for encrypting the rauc update bundle with RSA-4096
   * `kernel_modsign`: PHYTEC-modsign for signing kernel modules with RSA-4096
-
-* `rauc`: self-signed CA only for rauc (old one)
-  * `development-1`: PHYTEC-RAUC-Dev1 for signing rauc update bundles with RSA-2048
 
 * `ssh-ca`: ssh cerrtificates for user client authentication
   * `user-client-ca`: ED25519 Key Pair for signing user certificates.
